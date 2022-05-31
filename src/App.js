@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import data from './Components/data';
+import Movie from './Components/Movie/Movie';
+import Navbar from './Components/Navbar/Navbar';
+
 
 function App() {
+  const MovieList = data.map((eachData) => {
+    return (
+      
+      <Movie key={eachData.id} {...eachData} />
+    )
+  })
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      {MovieList}
     </div>
   );
 }

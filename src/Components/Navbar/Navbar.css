@@ -1,0 +1,26 @@
+.NavbarRoot{
+    display:flex;
+    justify-content:space-between;
+    height: 30px;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-left: 50px;
+}
+
+.navlist ul {
+    margin-right: 50px;
+    display:inline-flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+    font-size: 15px;
+}

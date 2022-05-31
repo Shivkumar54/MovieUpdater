@@ -1,0 +1,67 @@
+.MovieRoot{
+    margin: 70px 180px;
+    display: flex;
+    gap:20px ;
+    align-items:center;
+    justify-content:center
+}
+
+.imageroot{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.imageroot img{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+text{
+    width: 100%;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:5px;
+}
+
+.director{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.release{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.stars{
+    font-weight: 400;
+    font-size: 15px;
+    margin:10px 0 ;
+}
+button{
+    border: 0;
+    width: 20%;
+    height: 40px;
+    padding: 10;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    margin-top: 10px;
+    background-color:rgb(0, 22, 216);
+    border-radius:5px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.floatobj{
+    position: absolute;
+    background-color: white;
+    padding:5px 10px;
+    font-size: 12px;
+    top: 12px;
+    left: 12px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

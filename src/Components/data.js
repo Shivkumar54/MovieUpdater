@@ -36,7 +36,7 @@ export default [
         Raj B. Shetty,
         Danish Sait,
         Bobby Simha`,
-        releaseDate: "03/06/2022",
+        releaseDate: "10/06/2022",
         desc: `777 Charlie is an upcoming Indian Kannada-language adventure comedy-drama film directed by Kiranraj K.
          It features Rakshit Shetty, Sangeetha Sringeri and Raj B. Shetty in prominent roles.
          The film is produced by Rakshit Shetty and GS Gupta under the banner of Paramvah Studios.`,

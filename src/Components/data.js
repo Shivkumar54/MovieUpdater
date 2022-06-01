@@ -40,6 +40,27 @@ export default [
         desc: `777 Charlie is an upcoming Indian Kannada-language adventure comedy-drama film directed by Kiranraj K.
          It features Rakshit Shetty, Sangeetha Sringeri and Raj B. Shetty in prominent roles.
          The film is produced by Rakshit Shetty and GS Gupta under the banner of Paramvah Studios.`,
+        isTicketsAvailable:false  
+    },
+    {
+        id:7,
+        img:"https://moviesinner.com/wp-content/uploads/2022/02/jurassic-world-dominion-2022.jpg",
+        title: "Jurassic World ",
+        director: "Colin Trevorrow",
+        cast: `		
+        Chris Pratt,
+        Bryce Dallas Howard,
+        Laura Dern,
+        Jeff Goldblum,
+        Sam Neill,
+        DeWanda Wise,
+        Mamoudou Athie,
+        BD Wong,
+        Omar Sy,
+        Isabella Sermon`,
+        releaseDate: "10/06/2022",
+        desc: `The future of mankind hangs in the balance as humans and dinosaurs
+         coexist following the destruction of Isla Nublar.`,
         isTicketsAvailable:true  
     },
     {
@@ -48,7 +69,7 @@ export default [
         title: "Vikranth Rona",
         director: "Anup Bhandari",
         cast: "Sudeep, Anup Bhandari, jackleene fernandez",
-        releaseDate: "03/06/2022",
+        releaseDate: "16/07/2022",
         desc: `Vikrant Rona is an upcoming Indian Kannada-language fantasy action-adventure film directed by Anup Bhandari. 
         It stars Sudeep in the titular role alongside Nirup Bhandari, debutante Neetha Ashok, and Jacqueline Fernandez.`,
     },

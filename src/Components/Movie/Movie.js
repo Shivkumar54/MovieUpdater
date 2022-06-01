@@ -4,9 +4,9 @@ const Movie = (props) => {
 
     let Tickets
     if (props.isTicketsAvailable === true) {
-        Tickets = "AVAILABLE"
+        Tickets = "BOOKING OPEN"
     } else if (props.isTicketsAvailable === false) {
-        Tickets = "SOLD OUT"
+        Tickets = "OPENS SOON"
     } else {
         Tickets = "N/A"
     }
@@ -22,7 +22,9 @@ const Movie = (props) => {
           <p className='stars'> Staring - {props.cast}</p>
           <p> Movie Synopsis - {props.desc} </p>
               <p className='release'> Releasing on - {props.releaseDate} </p>
-              <button type='submit'>Know More</button>
+              
+                  <a href='https://in.bookmyshow.com/explore/home/bengaluru'><button type='submit'> Book Now </button></a>
+              
           </div>
     </div>
   )
